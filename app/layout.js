@@ -2,8 +2,11 @@ import "../styles/globals.css";
 import Header from "../components/Header";
 
 export const metadata = {
-  title: "Student AI Hub",
+  title: "StudentNeedy - AI Tools for Students",
   description: "Multifunctional AI tools for students",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
