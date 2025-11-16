@@ -1,0 +1,56 @@
+# ─────────────────────────────────────
+#  NEXT.JS BUILD FILES (LARGE - DO NOT UPLOAD)
+# ─────────────────────────────────────
+.next/
+out/
+dist/
+build/
+
+# ─────────────────────────────────────
+#  NODE MODULES (EXTREMELY LARGE)
+# ─────────────────────────────────────
+node_modules/
+
+# ─────────────────────────────────────
+#  ENVIRONMENT VARIABLES
+# ─────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+
+# Supabase Keys
+supabase/.temp/
+
+# ─────────────────────────────────────
+#  SYSTEM FILES
+# ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────
+#  LOG FILES
+# ─────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─────────────────────────────────────
+#  EDITOR FILES
+# ─────────────────────────────────────
+.vscode/
+.idea/
+
+# ─────────────────────────────────────
+#  PACKAGE LOCK BACKUPS
+# ─────────────────────────────────────
+package-lock.json*
+pnpm-lock.yaml*
+yarn.lock*
+
+# ─────────────────────────────────────
+#  CACHE FILES
+# ─────────────────────────────────────
+*.cache
+.cache/
+.vercel/
